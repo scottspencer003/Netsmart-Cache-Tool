@@ -222,10 +222,10 @@ namespace Netsmart_Cache
             SslPolicyErrors sslPolicyErrors) { return true; };
 
             //Smtp email server and account settings
-            var smtpClient = new SmtpClient("exch1syl.corp.hns.org")
+            var smtpClient = new SmtpClient("exchange server")
             {
                 Port = 25,
-                Credentials = new NetworkCredential("hdesk@caredimensions.org", "R-u-tHinkin??"),
+                Credentials = new NetworkCredential("emailaddress", "password"),
                 EnableSsl = true,
             };
 
